@@ -1,0 +1,9 @@
+.input_container {
+    background-color: blue;
+    display: grid;
+    justify-content: center;
+}
+
+.task_container {
+    background-color: green;
+}
