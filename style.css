@@ -1,9 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: 'Cherry Bomb One', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+    font-weight: normal;
+    text-decoration: dashed underline;
+    text-shadow:
+        -2px -2px 0 #ef7e9c79,
+        2px -2px 0 #ef7e9c79,
+        -2px 2px 0 #ef7e9c79,
+        2px 2px 0 #ef7e9c79,
+        -3px 0px 0 #ef7e9c79,
+        3px 0px 0 #ef7e9c79,
+        0px -3px 0 #ef7e9c79,
+        0px 3px 0 #ef7e9c79;
+}
+
 .input_container {
-    background-color: blue;
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+}
+
+.input_container input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #A8DDE1;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 20px;
+}
+
+.input_container button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #EF7E9C;
+    background-color: #F8D5DB;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.800);
+    font-family: 'Sour Gummy', sans-serif;
+    font-weight: 500;
+}
+
+.input_container button:hover {
+    background-color: #EF7E9C;
+    color: white;
+    border: 2px solid #F8D5DB;
 }
 
 .task_container {
-    background-color: green;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #A8DDE1;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task_container h2 {
+    font-family: 'cherry bomb one', sans-serif;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin: -15px;
+    text-shadow:
+        -2px -2px 0 #ef7e9c79,
+        2px -2px 0 #ef7e9c79,
+        -2px 2px 0 #ef7e9c79,
+        2px 2px 0 #ef7e9c79,
+        -3px 0px 0 #ef7e9c79,
+        3px 0px 0 #ef7e9c79,
+        0px -3px 0 #ef7e9c79,
+        0px 3px 0 #ef7e9c79;
+}
+
+.tasks {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    text-shadow:
+        -2px -2px 0 #ef7e9c79,
+        2px -2px 0 #ef7e9c79,
+        -2px 2px 0 #ef7e9c79,
+        2px 2px 0 #ef7e9c79,
+        -3px 0px 0 #ef7e9c79,
+        3px 0px 0 #ef7e9c79,
+        0px -3px 0 #ef7e9c79,
+        0px 3px 0 #ef7e9c79;
+}
+
+#bullet_list li {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    padding: 2px 0;
+    line-height: 1.3;
+
 }
