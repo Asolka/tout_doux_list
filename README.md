@@ -14,7 +14,7 @@ I learned to dynamically create HTML elements, interact with the DOM, and store 
 1. Clone the repository  
    ```bash
    git clone https://github.com/Asolka/tout_doux_list.git
-Open index.html in your browser
+2. Open index.html in your browser
 
 ## 🎯 Goals
 This project helped me:
