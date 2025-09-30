@@ -17,7 +17,7 @@ export function renderTask(task, tasks) {
     // Done button
     const doneButton = document.createElement('button');
     doneButton.className = 'TaskButton';
-    doneButton.innerHTML = "<img src='assets/check.png' alt='Done'>";
+    doneButton.innerHTML = "<img src='assets/Check.png' alt='Done'>";
     doneButton.addEventListener('click', () => {
         li.classList.toggle('done');
         const id = parseInt(li.getAttribute('data-id'));
