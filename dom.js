@@ -19,10 +19,10 @@ export function renderTask(task, tasks) {
     doneButton.className = 'TaskButton';
     doneButton.innerHTML = "<img src='assets/Check.png' alt='Done'>";
     doneButton.addEventListener('click', () => {
-        li.classList.toggle('done');
-        const id = parseInt(li.getAttribute('data-id'));
+        newli.classList.toggle('done');
+        const id = parseInt(newli.getAttribute('data-id'));
         const taskObj = tasks.find(t => t.id === id);
-        taskObj.done = li.classList.contains('done');
+        taskObj.done = newli.classList.contains('done');
         saveTasks(tasks);
     });
     newli.appendChild(doneButton);
